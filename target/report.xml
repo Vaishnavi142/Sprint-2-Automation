@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="16" time="1,050.774">
+    <testcase classname="Verify Profile section of Elearning site" name="Verify messaging functionality" time="80.962">
+        <system-out><![CDATA[Given User is on Elearning site.............................................passed
+When User enters username and password......................................passed
+And click on Login button...................................................passed
+Then User is redirected to the homepage.....................................passed
+When User clicks on the compose link........................................passed
+When User enters "vir" in sendto box........................................passed
+And User selects the receiver name..........................................passed
+And User enters subjectline "Automation Script" in subject field............passed
+And User enter texts "I want to automate the website" in the message box....passed
+And User enter data in the "Image1 not attached" Description box............passed
+And User clicks send message button.........................................passed
+Then User gets confirmation message.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify Profile section of Elearning site" name="Verify messaging functionality 2" time="98.689">
+        <system-out><![CDATA[Given User is on Elearning site.............................................passed
+When User enters username and password......................................passed
+And click on Login button...................................................passed
+Then User is redirected to the homepage.....................................passed
+When User clicks on the compose link........................................passed
+When User enters "xyz" in sendto box........................................passed
+And User selects the receiver name..........................................passed
+And User enters subjectline "Elearning automation" in subject field.........passed
+And User enter texts "The Website title is Elearning" in the message box....passed
+And User enter data in the "Image2 not attached" Description box............passed
+And User clicks send message button.........................................passed
+Then User gets confirmation message.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify Profile section of Elearning site" name="Verify messaging functionality 3" time="69.668">
+        <system-out><![CDATA[Given User is on Elearning site.............................................passed
+When User enters username and password......................................passed
+And click on Login button...................................................passed
+Then User is redirected to the homepage.....................................passed
+When User clicks on the compose link........................................passed
+When User enters "sub" in sendto box........................................passed
+And User selects the receiver name..........................................passed
+And User enters subjectline "Testing mail1" in subject field................passed
+And User enter texts "" in the message box..................................passed
+And User enter data in the "" Description box...............................passed
+And User clicks send message button.........................................passed
+Then User gets confirmation message.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify Profile section of Elearning site" name="verify Mark as Read and Unread option in Inbox" time="69.446">
+        <system-out><![CDATA[Given User is on Elearning site.............................................passed
+When User enters username and password......................................passed
+And click on Login button...................................................passed
+Then User is redirected to the homepage.....................................passed
+When User clicks the Inbox link.............................................passed
+When User click on select all button........................................passed
+And User clicks Detail dropdown.............................................passed
+And User clicks the Mark as Read option.....................................passed
+And User accepts alert message from alert box...............................passed
+Then User gets confirmation text............................................passed
+When User click on select all button........................................passed
+When User click Detail dropdown.............................................passed
+And User clicks the Mark as Unread option...................................passed
+And User accept the alert message from alert box............................passed
+Then User gets a confirmation message.......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify Profile section of Elearning site" name="verify the reply option in Inbox" time="68.078">
+        <system-out><![CDATA[Given User is on Elearning site.............................................passed
+When User enters username and password......................................passed
+And click on Login button...................................................passed
+Then User is redirected to the homepage.....................................passed
+When User clicks on the Inbox link..........................................passed
+When User clicks on Reply option of particular message......................passed
+And User enter "Image1 not found" in Description box........................passed
+And User clicks Send message................................................passed
+Then User gets success message..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify Profile section of Elearning site" name="verify the Forward option in Inbox" time="60.661">
+        <system-out><![CDATA[Given User is on Elearning site.............................................passed
+When User enters username and password......................................passed
+And click on Login button...................................................passed
+Then User is redirected to the homepage.....................................passed
+When User clck Inbox link...................................................passed
+When User clicks on Forward option from Edit................................passed
+And User enters "vir" toname in Message box.................................passed
+Then User select the receiver name..........................................passed
+And User enters "Forwarded message" in Description box......................passed
+And User click Send message button..........................................passed
+Then User gets validation message...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify Profile section of Elearning site" name="verify composemessage button in Inbox page" time="57.146">
+        <system-out><![CDATA[Given User is on Elearning site.............................................passed
+When User enters username and password......................................passed
+And click on Login button...................................................passed
+Then User is redirected to the homepage.....................................passed
+When User clicks on Inbox link..............................................passed
+When User clicks on Composemessage link.....................................passed
+And User clicks the back button.............................................passed
+Then User navigates to the inbox section....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify Profile section of Elearning site" name="verify the Outbox functionality of Inbox page" time="58.706">
+        <system-out><![CDATA[Given User is on Elearning site.............................................passed
+When User enters username and password......................................passed
+And click on Login button...................................................passed
+Then User is redirected to the homepage.....................................passed
+When User clicks Inbox link.................................................passed
+When User clicks on Outbox link.............................................passed
+Then User can able to see the "Messages" messages sent......................passed
+When User clicks on select all button.......................................passed
+And User clicks the unselect all button.....................................passed
+Then User clicks back button................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify Profile section of Elearning site" name="Verify Delete option in Outbox Link" time="62.768">
+        <system-out><![CDATA[Given User is on Elearning site.............................................passed
+When User enters username and password......................................passed
+And click on Login button...................................................passed
+Then User is redirected to the homepage.....................................passed
+When User clicks on Inbox tab...............................................passed
+When User clicks on Outbox link.............................................passed
+When User clicks on the select all button...................................passed
+And User clicks the Detail dropdown.........................................passed
+And User clicks the Delete Selected messages option.........................passed
+And User accepts the alert message from alert box...........................passed
+Then User gets a confirmation "Back to outbox"..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify Profile section of Elearning site" name="Verify the Sent invitations can be viewed from Pending Invitations" time="54.246">
+        <system-out><![CDATA[Given User is on Elearning site.............................................passed
+When User enters username and password......................................passed
+And click on Login button...................................................passed
+Then User is redirected to the homepage.....................................passed
+When User clicks on Pending Invitation link.................................passed
+Then User is displayed with the Invitations sent............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify Profile section of Elearning site" name="Verify the functionality of Pending Invitation" time="75.788">
+        <system-out><![CDATA[Given User is on Elearning site.............................................passed
+When User enters username and password......................................passed
+And click on Login button...................................................passed
+Then User is redirected to the homepage.....................................passed
+When User clicks on Pending Invitation......................................passed
+When User clicks Try and Find Some Friends button...........................passed
+When User enter name in "vir" User,Group box................................passed
+When User choose an option from Type dropdown...............................passed
+And User clicks on search button............................................passed
+Then User is displayed with the result......................................passed
+When User clicks the Send Invitation button.................................passed
+And User enters message "Please accept my invitation" in the textbox........passed
+And User clicks the Send message button.....................................passed
+Then User gets the confirmation message.....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify Profile section of Elearning site" name="Verify the send message functionality of Pending Invitation" time="72.482">
+        <system-out><![CDATA[Given User is on Elearning site.............................................passed
+When User enters username and password......................................passed
+And click on Login button...................................................passed
+Then User is redirected to the homepage.....................................passed
+When User clicks Pending Invitation link....................................passed
+When User click Try and Find Some Friends button............................passed
+When User enters name in "virat" User,Group box.............................passed
+When User choose an option from Type dropDown...............................passed
+And User clicks search button...............................................passed
+Then User displayed with the result.........................................passed
+When User clicks Send Message button........................................passed
+And User enters subject "Invitation" in the subjectbox......................passed
+And User enter message "Hi, Gud morning!" in the textbox....................passed
+And User click the Send message button......................................passed
+Then User is displayed with confirmation message............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify Profile section of Elearning site" name="Verify the Personal Data page" time="56.804">
+        <system-out><![CDATA[Given User is on Elearning site.............................................passed
+When User enters username and password......................................passed
+And click on Login button...................................................passed
+Then User is redirected to the homepage.....................................passed
+When User clicks on Personal Data link......................................passed
+Then User can find the PersonalData Introduction............................passed
+When User clicks on PersonalData we keep about you link.....................passed
+And User expands some of the data...........................................passed
+Then User is displayed with Terms and Conditions if available...............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify Profile section of Elearning site" name="Verify Edit profile option in Personal Data page" time="53.54">
+        <system-out><![CDATA[Given User is on Elearning site.............................................passed
+When User enters username and password......................................passed
+And click on Login button...................................................passed
+Then User is redirected to the homepage.....................................passed
+When User clicks on Personal Data link......................................passed
+When User clicks on Edit profile link.......................................passed
+Then User verifies the Edit option is accessible from Personaldata page.....passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify Profile section of Elearning site" name="Verify Parameters are filled by default in Edit profile" time="42.055">
+        <system-out><![CDATA[Given User is on Elearning site.............................................passed
+When User enters username and password......................................passed
+And click on Login button...................................................passed
+Then User is redirected to the homepage.....................................passed
+When User clicks Edit profile link..........................................passed
+And User verifies Firstname, Lastname, Username, code and email is filled by default.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify Profile section of Elearning site" name="Verify password change functionality" time="67.739">
+        <system-out><![CDATA[Given User is on Elearning site.............................................passed
+When User enters username and password......................................passed
+And click on Login button...................................................passed
+Then User is redirected to the homepage.....................................passed
+When User clicks on the Edit profile link...................................passed
+When User enters old password "vaish@123" in Pass textbox...................passed
+When User enters new password "vaish@123" in NewPassword field..............passed
+When User enters new password "vaish@123" in ConfirmPassword field..........passed
+And User clicks on Save Settings button.....................................passed
+Then User is displayed with success "Your new profile has been saved" message.passed
+]]></system-out>
+    </testcase>
+</testsuite>
